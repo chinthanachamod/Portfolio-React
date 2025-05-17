@@ -30,7 +30,7 @@ const Navigation = () => {
             <nav className="container mx-auto px-4 py-4">
                 <div className="flex justify-between items-center">
                     <Link to="/" className="text-xl font-bold text-indigo-600">
-                        My Portfolio
+                        ChaMax
                     </Link>
                     {/* Mobile menu button */}
                     <div className="md:hidden">

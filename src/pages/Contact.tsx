@@ -4,7 +4,7 @@ import {
     MailIcon,
     PhoneIcon,
     LinkedinIcon,
-    GithubIcon
+    GithubIcon, FacebookIcon
 
 } from 'lucide-react'
 const Contact = () => {
@@ -84,6 +84,15 @@ const Contact = () => {
                                 aria-label="GitHub Profile"
                             >
                                 <GithubIcon size={20} />
+                            </a>
+                            <a
+                                href="https://www.facebook.com/chinthana.chamodbn?mibextid=ZbWKwL"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-gray-100 hover:bg-gray-200 text-gray-700 p-3 rounded-full transition-colors"
+                                aria-label="Facebook Profile"
+                            >
+                                <FacebookIcon size={20} />
                             </a>
                         </div>
                     </div>

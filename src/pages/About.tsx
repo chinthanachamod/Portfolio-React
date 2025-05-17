@@ -11,9 +11,18 @@ const About = () => {
     ]
     return (
         <div className="max-w-4xl mx-auto">
-            <h1 className="text-3xl font-bold mb-8 text-center text-gray-900">
-                About Me
-            </h1>
+            <div className="text-center mb-12">
+                <div className="mb-6 flex justify-center">
+                    <div className="relative">
+                        <img
+                            src="src/assets/images/My img.jpg"
+                            alt="Profile photo"
+                            className="w-50 h-60 rounded-full object-cover border-4 border-white shadow-lg"
+                        />
+                    </div>
+                </div>
+                <h1 className="text-3xl font-bold mb-4 text-gray-900">About Me</h1>
+            </div>
             <div className="bg-white rounded-lg shadow-md p-6 mb-8">
                 <h2 className="text-2xl font-semibold mb-4 text-gray-800">Who I Am</h2>
                 <p className="text-gray-600 mb-4">
